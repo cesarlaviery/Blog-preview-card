@@ -97,6 +97,15 @@ body {
     height: 30px;
 }
 
+.attribution {
+    font-size: 10px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
 @media (min-width: 768px) {
 
     .card {
@@ -112,13 +121,8 @@ body {
         top: 0;
         left: 0;
     }
-}
 
-.attribution {
-    font-size: 11px;
-    text-align: center;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
+    .attribution {
+        font-size: 11px;
+    }
 }
