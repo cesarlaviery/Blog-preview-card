@@ -17,12 +17,17 @@ body {
     background-color: var(--yellow);
     font-family: 'Figtree', sans-serif;
     overflow: hidden;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .card {
     width: 310px;
     height: 460px;
-    margin: 60px auto 50px;
+    margin: 0 auto;
+    margin-bottom: 40px;
     background-color: var(--white);
     border-radius: 20px;
     border: 1px solid black;
